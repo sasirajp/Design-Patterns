@@ -46,7 +46,7 @@ class User {
 
     @Override
     public String toString() {
-        return this.name;
+        return "%s %s".formatted(this.name, this.age);
     }
 
 }
@@ -55,6 +55,8 @@ class User {
 public class BuilderPattern {
     public static void main(String[] args) {
         User obj = new User.UserBuilder().name("hey").build();
+        User obj2 = new User.UserBuilder().name("Hello").age(10).build();
         System.out.println(obj);
+        System.out.println(obj2);
     }
 }
