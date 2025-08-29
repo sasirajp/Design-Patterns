@@ -1,4 +1,4 @@
-package creational.FactoryPattern;
+package creational.factory_pattern;
 
 public class A_FactoryPatternDriver {
     public static void main(String[] args) {
