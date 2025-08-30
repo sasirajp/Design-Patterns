@@ -1,5 +1,10 @@
 package creational.factory_pattern;
 
+
+// Limitation in this is that we cannot add a new shap like parallelogram in this
+// code without modifying existing code, which violates OCP rule.(need to modify factory class)
+
+
 public class A_FactoryPatternDriver {
     public static void main(String[] args) {
         ShapeFactory factory = new ShapeFactory();

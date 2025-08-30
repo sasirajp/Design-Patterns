@@ -1,5 +1,9 @@
 package creational.factory_pattern;
 
+
+// To overcome limitation of OCP on factory design pattern Factory Method pattern is used.
+// we create generic factory and separate factory for each product type like circle factory square factory
+
 public class B_FactoryMethodPatternDriver {
     public static void main(String[] args) {
         ShapeFactory1 factory1 = new CircleFactory();

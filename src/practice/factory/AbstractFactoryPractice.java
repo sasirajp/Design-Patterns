@@ -1,5 +1,7 @@
 package practice.factory;
 
+
+
 public class AbstractFactoryPractice {
     public static void main(String[] args) {
         GUIFactory factory = new DarkThemeFactory();
