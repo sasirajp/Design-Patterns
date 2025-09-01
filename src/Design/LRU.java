@@ -3,6 +3,13 @@ package Design;
 import java.util.HashMap;
 import java.util.Objects;
 
+
+
+// Idea is creating dummy nodes at the head and tail for the reference.
+
+//  head(dummy node object) ---> node1  --> node2 ---> node3 --> tail(dummy node object)
+
+
 class DoubleLinkedList {
     int key;
     int data;
